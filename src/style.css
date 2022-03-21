@@ -1,3 +1,61 @@
-h1, p {
+h1,
+p {
   font-family: Lato;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.html {
+  margin: 0;
+  padding: 0;
+}
+.body {
+  margin: 0;
+  padding: 0;
+}
+.hero {
+  min-height: 550px;
+  width: 100%;
+  background: url(.jpg);
+}
+.header {
+  width: 100%;
+  min-height: 140px;
+  background: #292929;
+}
+.logo {
+  position: absolute;
+  width: 193px;
+  height: 60px;
+  left: 77px;
+  top: 40px;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+}
+.logo p {
+  position: absolute;
+  width: 156.7px;
+  height: 32.94px;
+  left: 19px;
+  top: 14px;
+  margin: auto;
+  text-align: center;
+  color: #ffffff;
+}
+.hero-text {
+  position: absolute;
+  width: 490px;
+  height: 282px;
+  left: 77px;
+  top: 247px;
+
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 94px;
+  letter-spacing: -0.05em;
+
+  color: #ffffff;
 }

@@ -1,10 +1,11 @@
 import React from 'react';
 import './style.css';
 import Categories from './components/categories';
+import Hero from './components/hero';
 export default function App() {
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
+      <Hero />
       <Categories categories={{ name: 'Movie' }} />
     </div>
   );
